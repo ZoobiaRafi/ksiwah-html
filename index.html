@@ -72,8 +72,8 @@
                     <div class="social-icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
                     <div class="social-icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
                 </div>
-                <div class="d-block d-md-none head-nav col-md-3 col-sm-3 col-lg-3 col-3">
-                    <div class="nav-icon"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+                <div class="d-flex d-md-none head-nav col-md-3 col-sm-3 col-lg-3 col-3">
+                    <div class="nav-icon"><a href="#" class="menu-btn"><i class="fa-solid fa-bars"></i></a></div>
                 </div>
                 <div class="logo col-lg-6 col-sm-6 col-lg-6 col-6">
                     <img src="img/logo.png" alt="logo">
@@ -81,7 +81,8 @@
                 <div class="head-user col-md-3 col-sm-3 col-lg-3 col-3">
                     <div class="user-icon"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></div>
                     <div class="user-icon"><a href="#"><i class="fa-regular fa-heart"></i></a></div>
-                    <div class="user-icon"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                    <div class="user-icon"><a><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                    <!-- data-bs-toggle="modal" data-bs-target="#searchModal" -->
                 </div>
             </div>
         </div>
@@ -97,15 +98,22 @@
         </div>
     </section>
 
-    <section class="nav-bar">
+    <section class="nav-bar d-none d-md-flex">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-4 d-md-block d-none"></div>
+                <div class="col-4"></div>
                 <div class="col-4">
                     <div class="nav">
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Men</a></li>
+                            <li>
+                                <a href="#">Men</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Full Sleeves</a></li>
+                                    <li><a href="#">Hooded Jubbah</a></li>
+                                    <li><a href="#">Half Sleeves</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
@@ -370,6 +378,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                         <i class="fa-regular fa-star"></i>
                                                     </p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="price">&pound;&nbsp;39.99</p>
+                                                </div>
+                                                <div class="col-12">
                                                     <p class="size">
                                                         <a href="#" class="btn">S</a>
                                                         <a href="#" class="btn">M</a>
@@ -377,11 +390,6 @@
                                                         <a href="#" class="btn">XL</a>
                                                         <a href="#" class="btn disabled">XXL</a>
                                                     </p>
-                                                </div>
-                                                <div class="col-4">
-                                                    <p class="price">&pound;&nbsp;39.99</p>
-                                                </div>
-                                                <div class="col-12">
                                                     <div class="btns">
                                                         <a href="#" class="btn btnCart btn-primary">Add to Cart</a>
                                                     </div>
@@ -430,6 +438,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                         <i class="fa-regular fa-star"></i>
                                                     </p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="price">&pound;&nbsp;39.99</p>
+                                                </div>
+                                                <div class="col-12">
                                                     <p class="size">
                                                         <a href="#" class="btn">S</a>
                                                         <a href="#" class="btn">M</a>
@@ -437,11 +450,6 @@
                                                         <a href="#" class="btn">XL</a>
                                                         <a href="#" class="btn disabled">XXL</a>
                                                     </p>
-                                                </div>
-                                                <div class="col-4">
-                                                    <p class="price">&pound;&nbsp;39.99</p>
-                                                </div>
-                                                <div class="col-12">
                                                     <div class="btns">
                                                         <a href="#" class="btn btnCart btn-primary">Add to Cart</a>
                                                     </div>
@@ -490,6 +498,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                         <i class="fa-regular fa-star"></i>
                                                     </p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="price">&pound;&nbsp;39.99</p>
+                                                </div>
+                                                <div class="col-12">
                                                     <p class="size">
                                                         <a href="#" class="btn">S</a>
                                                         <a href="#" class="btn">M</a>
@@ -497,11 +510,6 @@
                                                         <a href="#" class="btn">XL</a>
                                                         <a href="#" class="btn disabled">XXL</a>
                                                     </p>
-                                                </div>
-                                                <div class="col-4">
-                                                    <p class="price">&pound;&nbsp;39.99</p>
-                                                </div>
-                                                <div class="col-12">
                                                     <div class="btns">
                                                         <a href="#" class="btn btnCart btn-primary">Add to Cart</a>
                                                     </div>
@@ -550,6 +558,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                         <i class="fa-regular fa-star"></i>
                                                     </p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="price">&pound;&nbsp;39.99</p>
+                                                </div>
+                                                <div class="col-12">
                                                     <p class="size">
                                                         <a href="#" class="btn">S</a>
                                                         <a href="#" class="btn">M</a>
@@ -557,11 +570,6 @@
                                                         <a href="#" class="btn">XL</a>
                                                         <a href="#" class="btn disabled">XXL</a>
                                                     </p>
-                                                </div>
-                                                <div class="col-4">
-                                                    <p class="price">&pound;&nbsp;39.99</p>
-                                                </div>
-                                                <div class="col-12">
                                                     <div class="btns">
                                                         <a href="#" class="btn btnCart btn-primary">Add to Cart</a>
                                                     </div>
@@ -610,6 +618,12 @@
                                                         <i class="fa-solid fa-star"></i>
                                                         <i class="fa-regular fa-star"></i>
                                                     </p>
+
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="price">&pound;&nbsp;39.99</p>
+                                                </div>
+                                                <div class="col-12">
                                                     <p class="size">
                                                         <a href="#" class="btn">S</a>
                                                         <a href="#" class="btn">M</a>
@@ -617,11 +631,6 @@
                                                         <a href="#" class="btn">XL</a>
                                                         <a href="#" class="btn disabled">XXL</a>
                                                     </p>
-                                                </div>
-                                                <div class="col-4">
-                                                    <p class="price">&pound;&nbsp;39.99</p>
-                                                </div>
-                                                <div class="col-12">
                                                     <div class="btns">
                                                         <a href="#" class="btn btnCart btn-primary">Add to Cart</a>
                                                     </div>
@@ -728,7 +737,7 @@
                     <h3 class="section-heading">Gallery</h3>
                 </div>
             </div>
-            <div class="row d-none d-md-block">
+            <!-- <div class="row d-none d-md-block">
                 <div id="GalleryCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#GalleryCarousel" data-bs-slide-to="0" class="active"
@@ -847,7 +856,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
+            </div> -->
             <div class="row d-block d-md-none px-5">
                 <div id="GalleryCarouselRes" class="carousel slide" data-ride="carousel">
                     <div class="carousel-indicators">
@@ -855,6 +864,14 @@
                             aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#GalleryCarouselRes" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#GalleryCarouselRes" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#GalleryCarouselRes" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#GalleryCarouselRes" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#GalleryCarouselRes" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -873,7 +890,40 @@
                                 <div class="col-md-3 col-sm-3 col-lg-3">
                                     <div class="card">
                                         <div class="img-container">
-                                            <img src="/img/gallery/gallery-img-3.webp" class="img-fluid" alt="">
+                                            <img src="/img/gallery/gallery-img-4.webp" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row px-3">
+                                <div class="col-md-3 col-sm-3 col-lg-3">
+                                    <div class="card">
+                                        <div class="img-container">
+                                            <img src="/img/gallery/gallery-img-5.webp" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row px-3">
+                                <div class="col-md-3 col-sm-3 col-lg-3">
+                                    <div class="card">
+                                        <div class="img-container">
+                                            <img src="/img/gallery/gallery-img-6.webp" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row px-3">
+                                <div class="col-md-3 col-sm-3 col-lg-3">
+                                    <div class="card">
+                                        <div class="img-container">
+                                            <img src="/img/gallery/gallery-img-7.webp" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -895,7 +945,8 @@
         </div>
     </section>
 
-    <div class="elfsight-app-2887a641-f042-4191-8fc1-4435d169b3d7" data-elfsight-app-lazy></div>
+    <!-- gallery widget -->
+    <div class="d-none d-md-block elfsight-app-2887a641-f042-4191-8fc1-4435d169b3d7" data-elfsight-app-lazy></div>
 
 
     <section class="banner-blue-bg">
@@ -940,7 +991,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -950,11 +1001,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -981,7 +1032,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -991,11 +1042,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1022,7 +1073,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -1032,138 +1083,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr class="mx-3 hr-blue">
-                                        <div class="card-body">
-                                            <p>
-                                                <span><i class="fa-solid fa-quote-left"></i></span>
-                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                                                eirmod tempor
-                                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                                                vero eos et
-                                                accusam etLorem Lorem ipsum dolor
-                                                <span><i class="fa-solid fa-quote-right"></i></span>
-                                            </p>
-                                        </div>
-                                        <div class="card-bottom"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row px-5">
-                                <div class="col-md-4 col-lg-4 col-sm-4">
-                                    <div class="card">
-                                        <div class="card-top">
-                                            <div class="row">
-                                                <div class="col-2">
-                                                    <div class="avatar">
-                                                        <img src="img/card-img.webp" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-7">
-                                                    <p class="name p-0 m-0">Abdul Basit Chhipa</p>
-                                                    <p class="stars p-0 m-0">
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="google">
-                                                        <img src="img/google.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr class="mx-3 hr-blue">
-                                        <div class="card-body">
-                                            <p>
-                                                <span><i class="fa-solid fa-quote-left"></i></span>
-                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                                                eirmod tempor
-                                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                                                vero eos et
-                                                accusam etLorem Lorem ipsum dolor
-                                                <span><i class="fa-solid fa-quote-right"></i></span>
-                                            </p>
-                                        </div>
-                                        <div class="card-bottom"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-lg-4 col-sm-4">
-                                    <div class="card">
-                                        <div class="card-top">
-                                            <div class="row">
-                                                <div class="col-2">
-                                                    <div class="avatar">
-                                                        <img src="img/card-img.webp" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-7">
-                                                    <p class="name p-0 m-0">Abdul Basit Chhipa</p>
-                                                    <p class="stars p-0 m-0">
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="google">
-                                                        <img src="img/google.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr class="mx-3 hr-blue">
-                                        <div class="card-body">
-                                            <p>
-                                                <span><i class="fa-solid fa-quote-left"></i></span>
-                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                                                eirmod tempor
-                                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                                                vero eos et
-                                                accusam etLorem Lorem ipsum dolor
-                                                <span><i class="fa-solid fa-quote-right"></i></span>
-                                            </p>
-                                        </div>
-                                        <div class="card-bottom"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-lg-4 col-sm-4">
-                                    <div class="card">
-                                        <div class="card-top">
-                                            <div class="row">
-                                                <div class="col-2">
-                                                    <div class="avatar">
-                                                        <img src="img/card-img.webp" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-7">
-                                                    <p class="name p-0 m-0">Abdul Basit Chhipa</p>
-                                                    <p class="stars p-0 m-0">
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="col-2">
-                                                    <div class="google">
-                                                        <img src="img/google.png" alt="">
-                                                    </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1194,7 +1118,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -1204,11 +1128,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1235,7 +1159,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -1245,11 +1169,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1276,7 +1200,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -1286,11 +1210,138 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <hr class="mx-3 hr-blue">
+                                        <div class="card-body">
+                                            <p>
+                                                <span><i class="fa-solid fa-quote-left"></i></span>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod tempor
+                                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                                vero eos et
+                                                accusam etLorem Lorem ipsum dolor
+                                                <span><i class="fa-solid fa-quote-right"></i></span>
+                                            </p>
+                                        </div>
+                                        <div class="card-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row px-5">
+                                <div class="col-md-4 col-lg-4 col-sm-4">
+                                    <div class="card">
+                                        <div class="card-top">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <div class="avatar">
+                                                        <img src="img/card-img.webp" alt="">
+                                                    </div>
                                                 </div>
+                                                <div class="col-9">
+                                                    <p class="name p-0 m-0">Abdul Basit Chhipa</p>
+                                                    <p class="stars p-0 m-0">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </p>
+                                                </div>
+                                                <!-- <div class="col-2">
+                                                    <div class="google">
+                                                        <img src="img/google.png" alt="">
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <hr class="mx-3 hr-blue">
+                                        <div class="card-body">
+                                            <p>
+                                                <span><i class="fa-solid fa-quote-left"></i></span>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod tempor
+                                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                                vero eos et
+                                                accusam etLorem Lorem ipsum dolor
+                                                <span><i class="fa-solid fa-quote-right"></i></span>
+                                            </p>
+                                        </div>
+                                        <div class="card-bottom"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-4">
+                                    <div class="card">
+                                        <div class="card-top">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <div class="avatar">
+                                                        <img src="img/card-img.webp" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-9">
+                                                    <p class="name p-0 m-0">Abdul Basit Chhipa</p>
+                                                    <p class="stars p-0 m-0">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </p>
+                                                </div>
+                                                <!-- <div class="col-2">
+                                                    <div class="google">
+                                                        <img src="img/google.png" alt="">
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <hr class="mx-3 hr-blue">
+                                        <div class="card-body">
+                                            <p>
+                                                <span><i class="fa-solid fa-quote-left"></i></span>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                                                eirmod tempor
+                                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                                vero eos et
+                                                accusam etLorem Lorem ipsum dolor
+                                                <span><i class="fa-solid fa-quote-right"></i></span>
+                                            </p>
+                                        </div>
+                                        <div class="card-bottom"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-4">
+                                    <div class="card">
+                                        <div class="card-top">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <div class="avatar">
+                                                        <img src="img/card-img.webp" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-9">
+                                                    <p class="name p-0 m-0">Abdul Basit Chhipa</p>
+                                                    <p class="stars p-0 m-0">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </p>
+                                                </div>
+                                                <!-- <div class="col-2">
+                                                    <div class="google">
+                                                        <img src="img/google.png" alt="">
+                                                    </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1345,7 +1396,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -1355,11 +1406,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1390,7 +1441,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -1400,11 +1451,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1435,7 +1486,7 @@
                                                         <img src="img/card-img.webp" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="col-7">
+                                                <div class="col-9">
                                                     <p class="name p-0 m-0">Abdul Basit Chhipa</p>
                                                     <p class="stars p-0 m-0">
                                                         <i class="fa-solid fa-star"></i>
@@ -1445,11 +1496,11 @@
                                                         <i class="fa-solid fa-star"></i>
                                                     </p>
                                                 </div>
-                                                <div class="col-2">
+                                                <!-- <div class="col-2">
                                                     <div class="google">
                                                         <img src="img/google.png" alt="">
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <hr class="mx-3 hr-blue">
@@ -1485,7 +1536,8 @@
         </div>
     </section>
 
-    <div class="elfsight-app-f7f4b4f4-b298-4e49-bef2-2bc6dc2d94c5" data-elfsight-app-lazy></div>
+    <!-- reviews widget -->
+    <!-- <div class="elfsight-app-f7f4b4f4-b298-4e49-bef2-2bc6dc2d94c5" data-elfsight-app-lazy></div> -->
 
     <section class="newsletter">
         <div class="container">
@@ -1527,14 +1579,16 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
-                                Accordion Item #1
+                                Q: Is Kiswa London an Islamic shop near the UK?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
-                                body.</div>
+                            <div class="accordion-body">A: Yes, indeed! Kiswa London is proud to be an Islamic shop
+                                located conveniently near the UK. Our physical store is designed to provide a
+                                personalized shopping experience for those seeking high-quality Islamic attire,
+                                including our renowned thobes for men.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -1542,14 +1596,17 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
-                                Accordion Item #2
+                                Q: What makes Kiswa London's thobes for men special?
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
-                                body. Let's imagine this being filled with some actual content.</div>
+                            <div class="accordion-body">
+                                A: Kiswa London's thobes for men are crafted with a perfect blend of tradition and
+                                modern aesthetics. Designed to cater to diverse styles and occasions, our thobes are
+                                known for their premium quality fabrics, attention to detail, and versatility, making
+                                them a staple in every wardrobe.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -1557,16 +1614,33 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
-                                Accordion Item #3
+                                Q: Do you provide accurate sizing information for thobes when shopping online?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
-                                body. Nothing more exciting happening here in terms of content, but just filling up the
-                                space to make it look, at least at first glance, a bit more representative of how this
-                                would look in a real-world application.</div>
+                            <div class="accordion-body">A: Yes, we understand the importance of finding the right fit
+                                when shopping for thobes online. Each product page features a detailed size guide with
+                                accurate measurements, ensuring that you can confidently select the perfect size for
+                                your Kiswa London thobe.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Q: How can I order a thobe for men from Kiswa London online?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">A: Ordering a thobe for men from Kiswa London is simple. Explore
+                                our online collection, choose your preferred thobe, and proceed to checkout. We offer
+                                secure online transactions and reliable delivery services, ensuring your chosen thobe
+                                reaches you with convenience and care.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1583,8 +1657,192 @@
                     </div>
                 </div>
             </div>
+            <div class="row footer-main-row">
+                <div class="col-md-3 col-sm-3 col-lg-3 col-6">
+                    <h5 class="footer-title">Information</h5>
+                    <hr class="footer-hr">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery And Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Of Service</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-lg-3 col-6">
+                    <h5 class="footer-title">My Account</h5>
+                    <hr class="footer-hr">
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="#">Sublink 3</a></li>
+                        <li><a href="#">Sublink 4</a></li>
+                        <li><a href="#">Sublink 5</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-lg-3 col-6">
+                    <h5 class="footer-title">Extras</h5>
+                    <hr class="footer-hr">
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                    </ul>
+                </div>
+
+                <div class="d-block d-md-none col-md-3 col-sm-3 col-lg-3 col-6">
+                    <h5 class="footer-title">Follow Us</h5>
+                    <hr class="footer-hr">
+                    <div class="footer-social pb-5">
+                        <div class="social-icon"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                        <div class="social-icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                        <div class="social-icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-lg-3 d-none d-md-block">
+                    <h5 class="footer-title">News Letter</h5>
+                    <hr class="footer-hr">
+                    <div class="form newsletter">
+                        <input type="text" class="form-control" placeholder="Email Here">
+                        <button>Subscribe</button>
+                    </div>
+                    <h5 class="footer-title">Follow Us</h5>
+                    <hr class="footer-hr">
+                    <div class="footer-social pb-5">
+                        <div class="social-icon"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                        <div class="social-icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                        <div class="social-icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center">
+                <hr class="hr-line">
+                <p class="copyright">© Copyright 2024 - Optimized Tech & BI. All Rights Reserved</p>
+            </div>
         </div>
     </section>
+
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <!-- <h1 class="modal-title fs-5" id="searchModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form d-flex align-items-center justify-content-center border-bottom">
+                        <input type="text" class="form-control border-0" placeholder="Searching for...">
+                        <div class="button"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    </div>
+                    <div class="product-row">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="img-div">
+                                                <img src="img/card-img.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-9">
+                                            <p>Jubbah 01</p>
+                                            <p class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </p>
+                                            <p class="price">&pound; 39.99</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slideRightToLeft menu-slider">
+        <div class="base-sidebar-content p-3">
+            <div class="base-sidebar-content-body">
+                <div class="d-flex justify-content-between w-100 border-bottom">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <button class="back-to-cart menu_slide_close border-0 fs-1 p-0"><i
+                            class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="menu-main-body p-2">
+                    
+                    <div class="row">
+                        <div class="col-md-6 px-3">
+                            <div class="accordion" id="menu_accordion">
+                                <div id="menu_accordion_home">
+                                    <h4 class="accordion-header">
+                                        <a href="#" class="accordion-button single shadow-none"
+                                            type="button">
+                                            <i style="color: var(--primary);"
+                                                class="fa-solid fa-house-chimney"></i>&nbsp; Home
+                                        </a>
+                                    </h4>
+                                </div>
+
+                                <div id="menu_accordion_1">
+                                    <h4 class="accordion-header">
+                                        <a href="#" class="accordion-button shadow-none" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#menu_accordion_one"
+                                            aria-expanded="true" aria-controls="menu_accordion_one">
+                                            Men
+                                        </a>
+                                    </h4>
+                                    <div id="menu_accordion_one" class="accordion-collapse collapse show"
+                                        data-bs-parent="#menu_accordion">
+                                        <div class="accordion-body">
+                                            <div class="container p-0">
+                                                <div class="check-list">
+                                                    <div class="form-check">
+                                                        <label class="form-check-label">
+                                                            <a href="#"> Full Sleeves</a>
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label class="form-check-label">
+                                                            <a href="#"> Half Sleeves</a>
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label class="form-check-label">
+                                                            <a href="#"> Hooded Jubbah</a>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="menu_accordion_final">
+                                    <h4 class="accordion-header">
+                                        <a href="#" class="accordion-button single shadow-none"
+                                            type="button">Contact Us
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
@@ -1603,6 +1861,25 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
+    <script>
+        $(document).on('click', ".menu-btn", function () {
+            if ($(".menu-slider").hasClass("show") === false) {
+                $(".menu-slider").addClass("show");
+                $("body").attr("style", "overflow: hidden;");
+                $(".base-sidebar-background").css("display", "");
+            } else {
+                $(".menu-slider").removeClass("show");
+                $("body").removeAttr("style");
+            }
+        });
+        $(document).on('click', ".menu_slide_close, .base-sidebar-background", function () {
+            $(".menu-slider").removeClass("show");
+            $(".base-sidebar-background").css("overflow", "hidden");
+            $("body").removeAttr("style");
+            $(".base-sidebar-background").css("display", "none");
+        });
+
+    </script>
 </body>
 
 </html>
