@@ -1054,11 +1054,19 @@ body {
 
             .details {
                 top: 75%;
+                // top: 270px;
+                .price{
+                    font-size: 13px;
+                }
+                .product-title{
+                    font-size: 15px;
+                }
             }
 
             &:hover {
                 .details {
                     top: 65%;
+                    // top: 230px;
                 }
             }
         }

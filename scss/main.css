@@ -856,6 +856,12 @@ body {
   .products .card .details {
     top: 75%;
   }
+  .products .card .details .price {
+    font-size: 13px;
+  }
+  .products .card .details .product-title {
+    font-size: 15px;
+  }
   .products .card:hover .details {
     top: 65%;
   }
