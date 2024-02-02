@@ -488,7 +488,7 @@ body {
 .newsletter .newsletter-bg {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-radius: 5px;
+  border-radius: 10px;
   background: url(../img/wear-bg.jpg);
 }
 .newsletter .newsletter-bg h3 {

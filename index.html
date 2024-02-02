@@ -48,18 +48,17 @@
         .carousel-control-prev:hover {
             color: var(--primary);
         }
-        
-        .accordion-button:not(.collapsed){
+
+        .accordion-button:not(.collapsed) {
             color: #434343;
-            border:none;
-            background-color: #EDEDED;
+            border: none;
+            background-color: transparent;
         }
 
-        .accordion-button:focus{
+        .accordion-button:focus {
             border-color: var(--primary);
-            background-color: #EDEDED;
+            background-color: transparent;
         }
-
     </style>
 
 </head>
@@ -321,14 +320,14 @@
             <div class="row px-5 d-block d-md-none">
                 <div id="bestsellerResCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#bestsellerResCarousel" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#bestsellerResCarousel" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#bestsellerResCarousel" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#bestsellerResCarousel" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#bestsellerResCarousel" data-bs-slide-to="3"
-                        aria-label="Slide 3"></button>
+                            aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#bestsellerResCarousel" data-bs-slide-to="4"
                             aria-label="Slide 3"></button>
                     </div>
@@ -634,14 +633,16 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#bestsellerResCarousel" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#bestsellerResCarousel"
+                        data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left"></i>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#bestsellerResCarousel" role="button" data-slide="next">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#bestsellerResCarousel"
+                        data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -835,14 +836,16 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#GalleryCarousel" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#GalleryCarousel"
+                        data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left"></i>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#GalleryCarousel" role="button" data-slide="next">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#GalleryCarousel"
+                        data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
             <div class="row d-block d-md-none px-5">
@@ -877,14 +880,16 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#GalleryCarouselRes" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#GalleryCarouselRes"
+                        data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left"></i>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#GalleryCarouselRes" role="button" data-slide="next">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#GalleryCarouselRes"
+                        data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -1306,14 +1311,16 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#ReviewCarousel" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ReviewCarousel"
+                        data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left"></i>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#ReviewCarousel" role="button" data-slide="next">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ReviewCarousel"
+                        data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
             <div class="row d-block d-md-none px-3">
@@ -1463,14 +1470,16 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#ReviewResCarousel" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ReviewResCarousel"
+                        data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left"></i>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#ReviewResCarousel" role="button" data-slide="next">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ReviewResCarousel"
+                        data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -1576,7 +1585,7 @@
             </div>
         </div>
     </section>
-    
+
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <script src='main.js'></script>
