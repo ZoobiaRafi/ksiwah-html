@@ -173,9 +173,9 @@ body {
 
                         li {
                             &:hover {
+                                background-color: var(--headerLightGray);
                                 a {
                                     border-bottom: none;
-                                    background-color: var(--headerLightGray);
                                     width: 100%;
                                     color: var(--primary);
                                 }
@@ -458,7 +458,8 @@ body {
             .card-img {
                 object-fit: contain;
                 border-radius: 50%;
-                height: 100%;
+                height: 160px;
+                width: 160px;
                 overflow: hidden;
 
                 img {
@@ -853,19 +854,47 @@ body {
             }
         }
 
-        .product-row {
-            .card {
-                .img-div {
-                    object-fit: contain;
-                    height: 50px;
-                    width: 50px;
-                    overflow: hidden;
-
-                    img {
-                        height: 100%;
-                        width: 100%;
-                    }
+    }
+    .product-row {
+        padding-top: 20px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        .card {
+            font-family: 'Montserrat';
+            border: none;
+            margin-top: 0.5rem;
+            .img-div {
+                object-fit: contain;
+                height: 120px;
+                width: 100px;
+                overflow: hidden;
+                border: 1px solid #707070;
+                border-radius: 5px;
+                img {
+                    height: 100%;
+                    width: 100%;
                 }
+            }
+            .title{
+                color: #707070;
+                font-weight: bold;
+                padding: 0;
+                margin: 0;
+                padding-bottom: 50px;
+                font-size: 16px;
+            }
+            .stars{
+                color: var(--primary);
+                padding: 0;
+                margin: 0;
+                font-size: 14px;
+            }
+            .price{
+                color: #707070;
+                font-weight: bold;
+                padding: 0;
+                margin: 0;
+                font-size: 14px;
             }
         }
     }
@@ -1055,8 +1084,13 @@ body {
             .details {
                 top: 75%;
                 // top: 270px;
+                .col-4{
+                    margin: 0;
+                    padding: 0;
+                }
                 .price{
                     font-size: 13px;
+                    margin-right: 0.75rem;
                 }
                 .product-title{
                     font-size: 15px;
@@ -1135,6 +1169,16 @@ body {
             align-items: center;
             justify-content: center;
             display: flex;
+        }
+    }
+
+    #searchModal {
+        .product-row{
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            .details{
+                padding-left: 1rem;
+            }
         }
     }
 }
