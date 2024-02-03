@@ -78,29 +78,26 @@
                 <div class="head-user col-md-3 col-sm-3 col-lg-3 col-3">
                     <div class="user-icon"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></div>
                     <div class="user-icon"><a href="#"><i class="fa-regular fa-heart"></i></a></div>
-                    <div class="user-icon"><a data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa-solid fa-magnifying-glass"></i></a></div>
-                    
+                    <div class="user-icon"><a data-bs-toggle="modal" data-bs-target="#searchModal"><i
+                                class="fa-solid fa-magnifying-glass"></i></a></div>
+
                 </div>
             </div>
         </div>
     </header>
 
     <section class="ribbon">
-        <div class="container">
-            <div class="row">
-                <div id="ribbonCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <p>Welcome to Kiswa London</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p>UK Wide Shipping. Free Standard Shipping On Orders Above £75.</p>
-                        </div>
-                    </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p class="d-block w-100">Welcome to Kiswa London</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="d-block w-100">UK Wide Shipping. Free Standard Shipping On Orders Above £75.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </section>    
 
     <section class="nav-bar d-none d-md-flex">
         <div class="container">
@@ -714,7 +711,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="col-sm-2 col-lg-2 col-md-2 col-6">
                     <div class="card">
                         <a href="#">
@@ -1958,10 +1955,6 @@
         crossorigin="anonymous"></script>
 
     <script>
-            // $('#ribbonCarousel').carousel({
-            //     interval: 2000
-            // });
-
         $(document).on('click', ".menu-btn", function () {
             if ($(".menu-slider").hasClass("show") === false) {
                 $(".menu-slider").addClass("show");
