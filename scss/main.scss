@@ -211,8 +211,8 @@ body {
 }
 
 .products {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     font-family: 'Montserrat';
 
     h2 {
@@ -237,36 +237,49 @@ body {
 
             .heart-icon {
                 p {
-                    padding-left: 5px;
+                    padding-left: 0px;
                     color: var(--primary);
                     font-family: 'Montserrat';
-
-                    a {
-                        color: var(--lightGreyBakground);
-                        text-decoration: none;
-
-                        i {
-                            font-size: 25px;
+                    .wishlist{
+                        a {
+                            padding-left: 5px;
+                            color: var(--lightGreyBakground);
+                            text-decoration: none;
+    
+                            i {
+                                font-size: 25px;
+                                padding-top: 0.25rem;
+                                padding-bottom: 0.25rem;
+                            }
+                        }
+    
+                        span {
+                            padding-left: 10px;
+                            display: none;
+                            font-size: 14px;
+                            font-weight: 600;
                         }
                     }
 
-                    span {
-                        padding-left: 10px;
-                        display: none;
-                        font-size: 14px;
-                        font-weight: 600;
-                    }
                 }
 
                 &:hover {
                     p {
-                        background-color: var(--headerLightGray);
-                        display: flex;
-                        align-items: center;
-                        justify-content: start;
+                        .wishlist{
+                            background-color: var(--headerLightGray);
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                            width: 110px;
+                            a{
+                                i{
+                                    color: var(--primary);
+                                }
+                            }
+                            span {
+                                display: flex;
+                            }
 
-                        span {
-                            display: block;
                         }
                     }
                 }
@@ -334,49 +347,49 @@ body {
 
             .size {
                 display: none;
-                // transition: display 0.5s ease-in-out;
                 color: var(--primary);
                 padding: 0;
                 margin: 0;
                 padding-top: 5px;
                 padding-bottom: 5px;
                 font-family: 'Montserrat';
+            
+                input[type="radio"] {
+                    display: none;
+            
+                    &:checked + label {
+                        color: var(--white);
+                        background-color: var(--primary);
+                    }
+            
+                    &:disabled + label {
+                        cursor: not-allowed;
+                        position: relative;
 
-                .btn {
+                        &::after {
+                            content: '\00D7'; /* Unicode character for "×" (multiplication sign) */
+                            position: absolute;
+                            top: 50%;
+                            left: 53%;
+                            transform: translate(-50%, -50%);
+                            color: rgba(255, 0, 0, 0.8); /* Red color for the cross */
+                            font-size: 32px; /* Adjust the font size as needed */
+                        }
+                    }
+                }
+            
+                label.btn {
                     font-size: 12px;
-                    color: var(--primary);
                     padding: 0px 8px;
                     border-radius: 0;
                     background-color: var(--white);
                     border: 1px solid var(--primary);
                     margin-right: 4px;
                     font-weight: 500;
+                    cursor: pointer;
                 }
-
-                .btn.active {
-                    color: var(--white);
-                    background-color: var(--primary);
-                }
-
-                .btn.disabled {
-                    position: relative;
-
-                    &::after {
-                        content: '\00D7';
-                        /* Unicode character for "×" (multiplication sign) */
-                        position: absolute;
-                        top: 40%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        color: rgba(255, 0, 0, 0.8);
-                        /* Red color for the cross */
-                        font-size: 32px;
-                        /* Adjust the font size as needed */
-                    }
-                }
-
             }
-
+            
             .price {
                 color: var(--primary);
                 font-family: 'Montserrat';
@@ -449,19 +462,20 @@ body {
     .card {
         margin-top: 0.5rem;
         border: none;
-
+        
         a {
-            text-decoration: none;
             color: var(--primary);
             font-weight: 600;
-
+            text-decoration: none;
+            padding-left: 1rem;
+            padding-right: 1rem;
             .card-img {
                 object-fit: contain;
                 border-radius: 50%;
                 height: 160px;
                 width: 160px;
                 overflow: hidden;
-
+                
                 img {
                     height: 100%;
                     width: 100%;
@@ -1074,6 +1088,7 @@ body {
     }
 
     .products {
+        padding-top: 3rem;
         padding-bottom: 5rem;
 
         .card {
@@ -1101,6 +1116,17 @@ body {
                 .details {
                     top: 65%;
                     // top: 230px;
+                }
+            }
+        }
+    }
+
+    .collection{
+        .card{
+            a{
+                .card-img {
+                    height: 130px;
+                    width: 130px;
                 }
             }
         }
