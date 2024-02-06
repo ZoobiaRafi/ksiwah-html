@@ -206,7 +206,7 @@ body {
   font-family: "Montserrat";
 }
 .products .card .promotions .heart-icon p .wishlist a {
-  padding-left: 5px;
+  padding-left: 10px;
   color: var(--lightGreyBakground);
   text-decoration: none;
 }
